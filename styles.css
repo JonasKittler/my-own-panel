@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 .alert {
-    background-color: white;
+    background-color: rgb(193, 193, 193);
     display: flex;
     position: relative;
     flex-direction: column;
@@ -38,4 +38,20 @@ body {
     width: 50%;
     display: flex;
     justify-content: center;
+}
+
+
+.alert .alert-btns .alert-btns-box .btn {
+    padding: 20px 40px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    border: 2px solid black;
+    color: black;
+}
+
+.alert .alert-btns .alert-btns-box .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
 }
