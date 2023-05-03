@@ -15,6 +15,27 @@ body {
     top: 10px;
 }
 
+.alert .alert-text {
+    height: 75%;
+    display: flex;
+    align-items: center;
+}
+
 .alert .alert-text .text {
     text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.alert .alert-btns {
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.alert .alert-btns .alert-btns-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
