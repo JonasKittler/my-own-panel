@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+
+* {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
+}
+
 body {
+    font-family: 'IBM Plex Mono', monospace;
     background-color: brown;
     font-family: sans-serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
 }
+
 .alert {
     background-color: rgb(193, 193, 193);
     display: flex;
@@ -42,10 +52,23 @@ body {
 
 
 .alert .alert-btns .alert-btns-box .btn {
-    padding: 20px 40px;
+    padding: 10px 15px;
     background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 0px;
     border: 2px solid black;
+    color: black;
+}
+
+.alert .alert-btns .decline .btn {
+    background-color: #ed0744;
+    color: black;
+}
+
+.alert .alert-btns .comfirm .btn {
+    background-color: #63ed07;
     color: black;
 }
 
