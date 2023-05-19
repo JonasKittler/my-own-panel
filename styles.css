@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 100;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     background-color: brown;
     font-family: sans-serif;
     font-weight: 300;
