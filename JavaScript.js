@@ -17,3 +17,11 @@ btnYes.onclick = e => {
     console.log("souhlasim")
     console.log(confirmed)
 }
+
+btnNo.onclick = e => {
+    e.preventDefault();
+    confirmed = false;
+    window.open("./403.html","_self")
+    console.log("nesouhlasim")
+    console.log(confirmed)
+}
